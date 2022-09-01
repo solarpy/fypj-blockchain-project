@@ -1,7 +1,10 @@
 import Navbar from "./Navbar"
-import Pricing from "./pages/Pricing"
 import Home from "./pages/Home"
-import About from "./pages/About"
+import Exchange from "./pages/Exchange"
+import News from "./pages/News"
+import Payment from "./pages/Payment"
+import Swap from "./pages/Swap"
+
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -11,8 +14,10 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/pricing" element={<Pricing />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/payment" element={<Payment />} />
+          <Route path="/exchange" element={<Exchange />} />
+          <Route path="/swap" element={<Swap />} />
+          <Route path="/news" element={<News />} />
         </Routes>
   </div>
 </>

@@ -4,11 +4,13 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-        Site Name
+        DemiSwap
       </Link>
       <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/payment">Payment</CustomLink>
+        <CustomLink to="/exchange">Exchange</CustomLink>
+        <CustomLink to="/swap">Swap</CustomLink>
+        <CustomLink to="/news">News</CustomLink>
       </ul>
     </nav>
   )
