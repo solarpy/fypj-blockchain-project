@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\images",
+    "\\client\\public",
+    "\\client\\src",
+    "\\client\\src\\assets",
+    "\\client\\src\\context",
+    "\\client\\src\\hooks",
+    "\\client\\src\\utilis",
+    "\\smart_contract\\contracts"
+  ],
+  "SelectedNode": "\\client\\src\\App.jsx",
+  "PreviewInSolutionExplorer": false
+}
