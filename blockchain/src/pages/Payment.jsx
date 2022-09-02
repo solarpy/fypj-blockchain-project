@@ -1,17 +1,8 @@
-import React from 'react';
-import { Footer, Navbar, Welcome, Services, Transactions } from '../components1';
+import React from 'react'
 
 const Payment = () => {
   return (
-    <div className="min-h-screen">
-      <div className="gradient-bg-welcome">
-        <Navbar />
-        <Welcome />
-      </div>
-      <Services />
-      <Transactions />
-      <Footer />
-    </div>
+    <div>Payment</div>
   )
 }
 
